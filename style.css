@@ -1,0 +1,240 @@
+*{
+    margin:0;
+padding:0;
+}
+
+.logo{
+    width:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 40px;
+}
+    
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+   background: rgba(0,0,0,0.541) url('https://th.bing.com/th/id/OIP.yhFKu-lPHZm0DfDSFWBUKwHaEK?pid=ImgDet&rs=1');
+}
+
+.nav-list{
+width:50%;
+height:42px;
+
+display: flex;
+align-items: center;
+list-style: none;
+font-weight: 500;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 20px 30px;
+}
+
+.nav-list li:hover{
+    background-color: rgba(233, 16, 16,0.59);
+}
+
+
+
+.nav-list li a{
+ text-decoration: none;
+ color: white;
+    
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(236, 16, 16);
+       
+   }
+
+
+.rightnav{
+
+    width:320px;
+    text-align: right;
+
+}
+
+
+
+.background{
+    background:rgba(0, 0, 0, 0.5) url('https://th.bing.com/th/id/R.171be8f7d3a51b01b367486113430a47?rik=j1B7dMKkzuqqZA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f8%2f7%2f6%2f888655-download-free-library-background-images-1920x1200.jpg&ehk=Ov1Gao0TC65eoT85%2fSjNiJuD3j1ryoGAnT0t3U7PNOU%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;
+}
+
+#search{
+ padding: 5px;
+ font-size: 17px;
+ font-family: 'Times New Roman', Times, serif;
+ font-style: 'italic','bold';
+ border: 2px solid grey;
+ border-radius: 9px;
+}
+
+.btn-sm{
+    background-color: unset;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-style: 'bold';
+    padding:5px 10px;
+    vertical-align: middle;
+
+}
+
+.box-main{
+
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ color: white;
+ max-width:50%;
+ margin: auto;
+ height: 80%;
+}
+
+.firstsection{
+
+    height: 100vh;
+}
+
+.firsthalf{
+    
+    width:80%;
+    display: flex;
+ justify-content:center;
+flex-direction: column;
+}
+
+.Secondhalf img{
+    
+    justify-content:right;
+    border: 2px solid lightblue;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+
+
+}
+.btn{
+
+ background-color: rgb(4, 4, 114);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-style: 'bold';
+    border-radius:20px;
+    cursor: pointer;
+    margin: 7px  3px;
+    font-weight: bold;
+
+}
+.btn:hover{
+
+    background-color: yellowgreen;
+}
+
+.text-big{
+    display: flex;
+    font-size: 40px;
+}
+
+.text-small{
+    display: flex;
+    font-size: 20px;
+}
+
+.thumbnail{
+ display: block;
+}
+
+.section{
+
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 1133px;
+    background-repeat: no-repeat;
+}
+.paras{
+    padding: 0px 65px;
+
+}
+.sec-left{
+
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 1133px;
+}
+
+.datetime{
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    position: absolute;
+    flex-direction: vertical;
+    color: rgb(245 211 245);
+    height: 21px;
+    width: 248px;
+    padding: 20px 60px;
+    border: 2px solid rgb(118 118 135 / 20%);
+    background-color: rgb(84 74 148 / 0%);
+    border-radius: 400px;
+    font-weight: 800;
+}
+.datetime:hover{
+    font-size: 15px;
+    background-color: rgba(65, 65, 151, 0.541);
+    border: 2px solid;
+}
+.contact{
+    background-color: rgb(245, 233, 233);
+    height:320px;
+   
+
+}
+.text-center{
+    text-align: center;
+    padding: 25px;
+    font-family:monospace;
+    font-size: 35px;
+}
+.form{
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.form input{
+    width:100%;
+    font-size: 19px;
+    /* padding: 7px; */
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin: 15px 0px;
+}
